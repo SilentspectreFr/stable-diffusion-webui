@@ -1,4 +1,23 @@
 #!/bin/bash
+
+# Commande principale avec gestion mémoire
+export COMMANDLINE_ARGS="--skip-torch-cuda-test --opt-split-attention"
+
+# Python version spécifique
+export PYTHON="python3.10"
+
+# Lancement du script principal
+$PYTHON launch.py
+
+# Git par défaut
+export GIT="git"
+
+# Environnement virtuel
+venv_dir="venv"
+
+# Fin du fichier
+exit 0
+
 #########################################################
 # Uncomment and change the variables below to your need:#
 #########################################################
